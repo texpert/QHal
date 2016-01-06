@@ -9,6 +9,7 @@ TEMPLATE        = lib
 QT              +=
 QT              -= gui
 CONFIG          += staticlib
+CONFIG          += c++11
 QMAKE_CXXFLAGS  += -Wall -ansi -pedantic -Wno-long-long
 INCLUDEPATH     += $$QHAL_INCLUDEPATH
 
